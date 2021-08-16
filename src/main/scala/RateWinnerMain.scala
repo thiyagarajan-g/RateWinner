@@ -11,7 +11,7 @@ object RateWinnerMain {
     val c = 1.0
     val b = 1.0
 
-    val candidates = Array("c1", "c2", "c3", "c4", "c5")
+    val candidates = Array("candidate1", "candidate2", "candidate3", "candidate4", "candidate5")
 
     def generateRating = scala.util.Random.nextInt(10)
     def selectCandidate = candidates(scala.util.Random.nextInt(5))
